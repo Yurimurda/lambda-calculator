@@ -13,7 +13,7 @@ const Numbers = () => {
   // STEP 2 - add the imported data to state
   
   const [numberState, setNumberState] = useState(numbers);
-  const [count, setCount] = useState(0);
+  let [count, setCount] = useState(0);
   const one = props => {
     setCount(count => count = 1);
   };
